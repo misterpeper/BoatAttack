@@ -197,6 +197,14 @@ namespace BoatAttack
 
         private static IEnumerator LoadSceneInternal(string scenePath)
         {
+            //Nintendo CPU boost
+            UnityEngine.Switch.Performance.SetCpuBoostMode(UnityEngine.Switch.Performance.CpuBoostMode.FastLoad);
+            var threadPriority = Application.backgroundLoadingPriority;
+            Application.backgroundLoadingPriority = ThreadPriority.High;
+            GameObject mainCamera = GameObject.Find("Main Camera");
+            mainCamera.SetActive(false);
+            //
+
             var loadingScreenLoading = Instance.loadingScreen.InstantiateAsync();
             yield return loadingScreenLoading;
             Instance.loadingScreenObject = loadingScreenLoading.Result;
@@ -244,6 +252,12 @@ namespace BoatAttack
                 Instance.loadingScreenObject.SendMessage("SetLoad", load.progress * 0.5f + 0.5f);
                 yield return null;
             }
+
+            //Nintendo CPU boost
+            mainCamera.SetActive(true);
+            Application.backgroundLoadingPriority = threadPriority;
+            UnityEngine.Switch.Performance.SetCpuBoostMode(UnityEngine.Switch.Performance.CpuBoostMode.Normal);
+            //
         }
 
         private static IEnumerator LoadPrefab<T>(AssetReference assetRef, AsyncOperationHandle assetLoading, Transform parent = null)

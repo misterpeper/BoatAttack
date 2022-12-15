@@ -87,7 +87,7 @@ PlayerSettings:
   hideHomeButton: 0
   submitAnalytics: 1
   usePlayerLog: 1
-  bakeCollisionMeshes: 1
+  bakeCollisionMeshes: 0
   forceSingleInstance: 0
   useFlipModelSwapchain: 1
   resizableWindow: 0
@@ -137,12 +137,7 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 0.9
-  preloadedAssets:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -183,8 +178,8 @@ PlayerSettings:
   ForceSDCardPermission: 0
   CreateWallpaper: 0
   APKExpansionFiles: 0
-  keepLoadedShadersAlive: 1
-  StripUnusedMeshComponents: 1
+  keepLoadedShadersAlive: 0
+  StripUnusedMeshComponents: 0
   VertexChannelCompressionMask: 4054
   iPhoneSdkVersion: 988
   iOSTargetOSVersionString: 11.0
@@ -886,7 +881,7 @@ PlayerSettings:
     Standalone: 0
   il2cppCompilerConfiguration: {}
   managedStrippingLevel:
-    Nintendo Switch: 2
+    Nintendo Switch: 4
     Standalone: 3
     iPhone: 2
   incrementalIl2cppBuild: {}

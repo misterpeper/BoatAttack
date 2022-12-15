@@ -198,11 +198,13 @@ namespace BoatAttack
         private static IEnumerator LoadSceneInternal(string scenePath)
         {
             //Nintendo CPU boost
+#if UNITY_SWITCH && !UNITY_EDITOR 
             UnityEngine.Switch.Performance.SetCpuBoostMode(UnityEngine.Switch.Performance.CpuBoostMode.FastLoad);
             var threadPriority = Application.backgroundLoadingPriority;
             Application.backgroundLoadingPriority = ThreadPriority.High;
             GameObject mainCamera = GameObject.Find("Main Camera");
             mainCamera.SetActive(false);
+#endif
             //
 
             var loadingScreenLoading = Instance.loadingScreen.InstantiateAsync();
@@ -254,9 +256,11 @@ namespace BoatAttack
             }
 
             //Nintendo CPU boost
+#if UNITY_SWITCH && !UNITY_EDITOR
             mainCamera.SetActive(true);
             Application.backgroundLoadingPriority = threadPriority;
             UnityEngine.Switch.Performance.SetCpuBoostMode(UnityEngine.Switch.Performance.CpuBoostMode.Normal);
+#endif
             //
         }
 

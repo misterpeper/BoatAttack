@@ -66,6 +66,8 @@ Material:
     - Vector1_8B35DE98: 65
     - Vector1_90E376AD: 0.5
     - Vector1_A492C01C: 10.3
+    - _QueueControl: 0
+    - _QueueOffset: 0
     m_Colors: []
   m_BuildTextureStacks: []
 --- !u!114 &4794812315435638453

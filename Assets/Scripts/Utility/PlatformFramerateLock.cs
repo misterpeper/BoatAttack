@@ -15,7 +15,7 @@ public class PlatformFramerateLock : MonoBehaviour
     {
 		int rate = 60;
 		float physRate = .02f;
-#if UNITY_STANDALONE || UNITY_EDITOR || UNITY_XBOXONE || UNITY_PS4
+#if UNITY_STANDALONE || UNITY_EDITOR || UNITY_XBOXONE || UNITY_PS4 || UNITY_SWITCH
 		rate = highEndFPS;
 		physRate = highEndFixedTimeStep;
 #else

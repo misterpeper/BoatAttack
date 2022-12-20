@@ -21,20 +21,50 @@ MonoBehaviour:
     m_Address: boat_interceptor
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   - m_GUID: 70d78230a0527e74dabc4f14906eef98
     m_Address: boat_renegade
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   - m_GUID: dd07c82db50e943ca8314f2c407ea841
     m_Address: boat_effect_wake
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+  - m_GUID: 43a0ed6020398094e9e4c72ad0a240bc
+    m_Address: turing_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9f8f60de1d8418148b3952227f1ca158
+    m_Address: turing_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7757d9bc3ccefab44908ea7a45c25463
+    m_Address: turing_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2bc2294629bc54c43beb74d7c4b349fb
+    m_Address: skywing_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ca3f0bce22efffd4a81830588c0606f2
+    m_Address: skywing_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f5254eea978dca14190f7377ab313c79
+    m_Address: skywing_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1c5c5b04d176be643bef94c9fa71d97e
+    m_Address: teslaboat_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0b026868ece3d5b499fb86b0331dfeaa
+    m_Address: teslaboat_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2a187ddee7f15c041b4123b274c0689b
+    m_Address: teslaboat_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 46fc3d082b08c4dacacae72d7016c235, type: 2}
   m_SchemaSet:

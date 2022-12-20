@@ -3,7 +3,27 @@ guid: cc08598687c893b4f998d7737cf0110f
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BoatBody
+    second: {fileID: 2100000, guid: 57235e9e1c6546644a1a8dd3acef9f66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CABIN
+    second: {fileID: 2100000, guid: 15cf292968aa8f44aa199db948296751, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GLASS
+    second: {fileID: 2100000, guid: 197e7acf40f61574f80441d27d0c6411, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interceptor
+    second: {fileID: 2100000, guid: f0c7ea1301ce0fd43bcb1fd30199a347, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

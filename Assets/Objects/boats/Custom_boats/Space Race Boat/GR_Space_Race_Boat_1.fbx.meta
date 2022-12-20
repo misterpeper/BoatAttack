@@ -3,7 +3,22 @@ guid: f2b31794fcc8c4a438944649716af446
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fuselaje
+    second: {fileID: 2100000, guid: 91eeb50595696c04dac266818dc2d412, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: partes raras 1
+    second: {fileID: 2100000, guid: ee7a2d03eca70af45b7678d4478cc325, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: partes raras 2
+    second: {fileID: 2100000, guid: 0a88da2b731a17a4ab8d13dfb2341084, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -32,7 +47,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 0
+    isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1

@@ -14661,9 +14661,9 @@ MonoBehaviour:
   _buoyancyType: 3
   density: 513.98334
   volume: 6.6150007
-  voxelResolution: 0.3
-  centerOfMass: {x: 0, y: 0, z: -0.65}
-  waterLevelOffset: 0.25
+  voxelResolution: 0.25
+  centerOfMass: {x: 0, y: -0.05, z: -0.65}
+  waterLevelOffset: 0.5
   colliders:
   - {fileID: 1775340112119388718}
 --- !u!1 &1748159261106977212
@@ -39451,15 +39451,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3731675840603190635}
-  m_LocalRotation: {x: 0.098537624, y: -0.000000021875596, z: 0.00000026372865, w: 0.99513334}
-  m_LocalPosition: {x: 0, y: 2, z: -5}
+  m_LocalRotation: {x: -0.13052616, y: 0, z: -0, w: -0.9914449}
+  m_LocalPosition: {x: 0, y: 2, z: -7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4449804819567654935}
   m_Father: {fileID: 1753889349157163484}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 1.7, y: 219.588, z: 0.009000001}
+  m_LocalEulerAnglesHint: {x: 15, y: 360, z: 0}
 --- !u!114 &4076383945258371664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39510,6 +39510,7 @@ GameObject:
   - component: {fileID: 5166400198435522934}
   - component: {fileID: 1639412222721721833}
   - component: {fileID: 1345612020664007234}
+  - component: {fileID: 559760047804687836}
   m_Layer: 0
   m_Name: cm
   m_TagString: Untagged
@@ -39593,3 +39594,20 @@ MonoBehaviour:
   m_BiasX: 0
   m_BiasY: 0
   m_CenterOnActivate: 1
+--- !u!114 &559760047804687836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8317405198139711852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bb026fafb42b14791938953eaace77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_NoiseProfile: {fileID: 11400000, guid: 46965f9cbaf525742a6da4c2172a99cd, type: 2}
+  m_PivotOffset: {x: 0, y: 0, z: 0}
+  m_AmplitudeGain: 0.25
+  m_FrequencyGain: 0.25
+  mNoiseOffsets: {x: 0, y: 0, z: 0}

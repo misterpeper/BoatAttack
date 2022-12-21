@@ -1400,7 +1400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!84 &1561592591
+--- !u!84 &1518398545
 RenderTexture:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1685,7 +1685,7 @@ PrefabInstance:
     - target: {fileID: 6677724033233584077, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
       propertyPath: m_Heading.m_Bias
-      value: 41.19308
+      value: 102.4036
       objectReference: {fileID: 0}
     - target: {fileID: 6986721006967331224, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}

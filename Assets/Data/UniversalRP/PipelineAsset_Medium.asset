@@ -52,7 +52,7 @@ MonoBehaviour:
   m_ShadowDepthBias: 0.75
   m_ShadowNormalBias: 0.75
   m_SoftShadowsSupported: 1
-  m_ConservativeEnclosingSphere: 0
+  m_ConservativeEnclosingSphere: 1
   m_NumIterationsEnclosingSphere: 32
   m_AdditionalLightsCookieResolution: 2048
   m_AdditionalLightsCookieFormat: 3

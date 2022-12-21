@@ -357,12 +357,55 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &960555434 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2849272551096858750, guid: 56de8e58d1a974ab880e61b104d7ef98,
+    type: 3}
+  m_PrefabInstance: {fileID: 7907029379336488239}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1068255644 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7055921330845455793, guid: 705cc40ed7b2348689ba68fd4bc915b3,
     type: 3}
   m_PrefabInstance: {fileID: 8187458271002221754}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &1163490277
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterDepthMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 5
+  m_Width: 1024
+  m_Height: 1024
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthStencilFormat: 94
+  m_ColorFormat: 0
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
+  m_ShadowSamplingMode: 2
 --- !u!1 &1167111873
 GameObject:
   m_ObjectHideFlags: 0
@@ -1400,43 +1443,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!84 &1518398545
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: WaterDepthMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 5
-  m_Width: 1024
-  m_Height: 1024
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthStencilFormat: 94
-  m_ColorFormat: 0
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
-  m_ShadowSamplingMode: 2
 --- !u!1 &1603626283
 GameObject:
   m_ObjectHideFlags: 1
@@ -1685,12 +1691,42 @@ PrefabInstance:
     - target: {fileID: 6677724033233584077, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
       propertyPath: m_Heading.m_Bias
-      value: 102.4036
+      value: 109.4548
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677724033928456943, guid: 56de8e58d1a974ab880e61b104d7ef98,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.490529
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677724033928456943, guid: 56de8e58d1a974ab880e61b104d7ef98,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.69480234
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677724033928456943, guid: 56de8e58d1a974ab880e61b104d7ef98,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7101534
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677724033928456943, guid: 56de8e58d1a974ab880e61b104d7ef98,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.16764446
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677724033928456943, guid: 56de8e58d1a974ab880e61b104d7ef98,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.66550416
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677724033928456943, guid: 56de8e58d1a974ab880e61b104d7ef98,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.15710421
       objectReference: {fileID: 0}
     - target: {fileID: 6986721006967331224, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
       propertyPath: options.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6986721006967331224, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
@@ -1700,7 +1736,7 @@ PrefabInstance:
     - target: {fileID: 6986721006967331224, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
       propertyPath: options.Array.data[3]
-      value: Turing 2
+      value: Molnia Shark
       objectReference: {fileID: 0}
     - target: {fileID: 6986721006967331224, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
@@ -1800,11 +1836,16 @@ PrefabInstance:
     - target: {fileID: 8803882710196166548, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
       propertyPath: boatMeshes.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8803882710196166548, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
       propertyPath: boatMeshes.Array.data[2]
+      value: 
+      objectReference: {fileID: 960555434}
+    - target: {fileID: 8803882710196166548, guid: 56de8e58d1a974ab880e61b104d7ef98,
+        type: 3}
+      propertyPath: boatMeshes.Array.data[3]
       value: 
       objectReference: {fileID: 7907029379336488240}
     - target: {fileID: 8803882710196166548, guid: 56de8e58d1a974ab880e61b104d7ef98,
@@ -1841,7 +1882,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 56de8e58d1a974ab880e61b104d7ef98, type: 3}
 --- !u!1 &7907029379336488240 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 3055148528225000869, guid: 56de8e58d1a974ab880e61b104d7ef98,
+  m_CorrespondingSourceObject: {fileID: 3564425809393619603, guid: 56de8e58d1a974ab880e61b104d7ef98,
     type: 3}
   m_PrefabInstance: {fileID: 7907029379336488239}
   m_PrefabAsset: {fileID: 0}

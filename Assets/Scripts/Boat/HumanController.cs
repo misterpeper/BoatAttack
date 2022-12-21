@@ -9,10 +9,10 @@ namespace BoatAttack
     /// </summary>
     public class HumanController : BaseController
     {
-        private InputControls _controls;
+        //private InputControls _controls;
         public int playerId = 0; // Rewired player id
 
-        private float _throttle;
+        [HideInInspector] public float _throttle;
         private float _steering;
 
         private bool _paused;

@@ -33,6 +33,10 @@ MonoBehaviour:
     m_Address: boat_molnia
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: 13591a85ea3dfcc46aa36f813816653c
+    m_Address: boat_molnia_shark
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 46fc3d082b08c4dacacae72d7016c235, type: 2}
   m_SchemaSet:

@@ -138,6 +138,10 @@ MonoBehaviour:
     m_SubObjectName: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0
+  - m_AssetGUID: 13591a85ea3dfcc46aa36f813816653c
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   raceUiPrefab:
     m_AssetGUID: 0482dcbdb79ee4d7eb43a774a90bda4e
     m_SubObjectName: 

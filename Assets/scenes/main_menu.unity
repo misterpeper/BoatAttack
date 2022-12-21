@@ -369,7 +369,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 8187458271002221754}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &1163490277
+--- !u!84 &1156533147
 RenderTexture:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1646,7 +1646,27 @@ PrefabInstance:
     - target: {fileID: 6677724032156829380, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
       propertyPath: field of view
-      value: 10
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677724032156829380, guid: 56de8e58d1a974ab880e61b104d7ef98,
+        type: 3}
+      propertyPath: far clip plane
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677724032156829380, guid: 56de8e58d1a974ab880e61b104d7ef98,
+        type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 7447
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677724032156829382, guid: 56de8e58d1a974ab880e61b104d7ef98,
+        type: 3}
+      propertyPath: m_DefaultBlend.m_Time
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677724032156829382, guid: 56de8e58d1a974ab880e61b104d7ef98,
+        type: 3}
+      propertyPath: m_DefaultBlend.m_Style
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6677724032156829383, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
@@ -1683,7 +1703,42 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 6677724032546433143, guid: 56de8e58d1a974ab880e61b104d7ef98,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677724032546433143, guid: 56de8e58d1a974ab880e61b104d7ef98,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677724032546433143, guid: 56de8e58d1a974ab880e61b104d7ef98,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677724032546433143, guid: 56de8e58d1a974ab880e61b104d7ef98,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9624553
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677724032546433143, guid: 56de8e58d1a974ab880e61b104d7ef98,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.27144036
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677724032546433143, guid: 56de8e58d1a974ab880e61b104d7ef98,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 31.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6677724032547962557, guid: 56de8e58d1a974ab880e61b104d7ef98,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677724033110085361, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1691,7 +1746,12 @@ PrefabInstance:
     - target: {fileID: 6677724033233584077, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
       propertyPath: m_Heading.m_Bias
-      value: 109.4548
+      value: -139.8684
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677724033928456942, guid: 56de8e58d1a974ab880e61b104d7ef98,
+        type: 3}
+      propertyPath: m_Lens.FarClipPlane
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 6677724033928456943, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
@@ -1723,10 +1783,30 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0.15710421
       objectReference: {fileID: 0}
+    - target: {fileID: 6677724034019008997, guid: 56de8e58d1a974ab880e61b104d7ef98,
+        type: 3}
+      propertyPath: m_Lens.FieldOfView
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677724034019008997, guid: 56de8e58d1a974ab880e61b104d7ef98,
+        type: 3}
+      propertyPath: m_Lens.FarClipPlane
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677724034071597083, guid: 56de8e58d1a974ab880e61b104d7ef98,
+        type: 3}
+      propertyPath: m_Lens.FieldOfView
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677724034071597083, guid: 56de8e58d1a974ab880e61b104d7ef98,
+        type: 3}
+      propertyPath: m_Lens.FarClipPlane
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 6986721006967331224, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
       propertyPath: options.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6986721006967331224, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
@@ -1741,7 +1821,7 @@ PrefabInstance:
     - target: {fileID: 6986721006967331224, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
       propertyPath: options.Array.data[4]
-      value: Turing 1
+      value: Seaplane
       objectReference: {fileID: 0}
     - target: {fileID: 6986721006967331224, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
@@ -1836,7 +1916,7 @@ PrefabInstance:
     - target: {fileID: 8803882710196166548, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
       propertyPath: boatMeshes.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8803882710196166548, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
@@ -1848,6 +1928,11 @@ PrefabInstance:
       propertyPath: boatMeshes.Array.data[3]
       value: 
       objectReference: {fileID: 7907029379336488240}
+    - target: {fileID: 8803882710196166548, guid: 56de8e58d1a974ab880e61b104d7ef98,
+        type: 3}
+      propertyPath: boatMeshes.Array.data[4]
+      value: 
+      objectReference: {fileID: 7907029379336488241}
     - target: {fileID: 8803882710196166548, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
       propertyPath: boatMeshes.Array.data[5]
@@ -1883,6 +1968,12 @@ PrefabInstance:
 --- !u!1 &7907029379336488240 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3564425809393619603, guid: 56de8e58d1a974ab880e61b104d7ef98,
+    type: 3}
+  m_PrefabInstance: {fileID: 7907029379336488239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7907029379336488241 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 426677906212686651, guid: 56de8e58d1a974ab880e61b104d7ef98,
     type: 3}
   m_PrefabInstance: {fileID: 7907029379336488239}
   m_PrefabAsset: {fileID: 0}

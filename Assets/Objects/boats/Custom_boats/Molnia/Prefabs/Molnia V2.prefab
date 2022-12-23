@@ -14907,7 +14907,7 @@ MonoBehaviour:
   engineSound: {fileID: 7154118914587813942}
   waterSound: {fileID: 7154965730307043348}
   steeringTorque: 4
-  horsePower: 65
+  horsePower: 58
   enginePosition: {x: 0, y: 0, z: 0}
 --- !u!1 &5248244312473784058
 GameObject:
@@ -19934,7 +19934,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7091092969108926282}
   serializedVersion: 2
-  m_Mass: 3800
+  m_Mass: 3500
   m_Drag: 0.35
   m_AngularDrag: 0.5
   m_UseGravity: 1

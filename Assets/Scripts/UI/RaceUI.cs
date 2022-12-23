@@ -153,7 +153,7 @@ namespace BoatAttack.UI
             switch (_speedFormat)
             {
                 case AppSettings.SpeedFormat._Kph:
-                    speed = velocity * 3.6f;
+                    speed = Mathf.Sqrt(velocity) * 3.6f; // Added Mathf.sqrt(velocity) to show up correct speed of sqrMagnitude, beacause before the speed was in pow of 2
                     break;
                 case AppSettings.SpeedFormat._Mph:
                     speed = velocity * 2.23694f;

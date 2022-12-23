@@ -42,8 +42,7 @@ namespace BoatAttack
 
         private void FixedUpdate()
         {
-            //VelocityMag = RB.velocity.sqrMagnitude; // get the sqr mag - old variant was causing wrong speed exposing
-            VelocityMag = RB.velocity.magnitude; // new variant of getting speed velocity magnitude
+            VelocityMag = RB.velocity.sqrMagnitude; //fixed speed display by adding sqrt(velocityMag) in raceUI.cs
             engineSound.pitch = Mathf.Max(VelocityMag * 0.01f, 0.3f); // use some magice numbers to control the pitch of the engine sound
 
             // Get the water level from the engines position and store it

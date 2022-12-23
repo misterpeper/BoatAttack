@@ -4925,7 +4925,7 @@ MonoBehaviour:
   engineSound: {fileID: 1829199797203614056}
   waterSound: {fileID: 1828916465070907722}
   steeringTorque: 5
-  horsePower: 60
+  horsePower: 50
   enginePosition: {x: 0, y: 0, z: 0}
 --- !u!1 &298182679179791885
 GameObject:

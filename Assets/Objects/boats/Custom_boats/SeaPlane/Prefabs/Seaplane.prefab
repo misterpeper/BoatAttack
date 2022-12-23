@@ -42,11 +42,11 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 0
-  m_Extents: {x: 0.8, y: 2.25, z: 0.8}
+  m_Extents: {x: 0.8, y: 2.75, z: 0.8}
   m_MoveThreshold: 0.1
   m_Carve: 0
   m_CarveOnlyStationary: 0
-  m_Center: {x: 0, y: 0.75, z: -0.5}
+  m_Center: {x: 0, y: 0.25, z: -0.5}
   m_TimeToStationary: 0.5
 --- !u!1 &690186371163143568
 GameObject:
@@ -4971,7 +4971,7 @@ MonoBehaviour:
   engineSound: {fileID: 4296394554323528936}
   waterSound: {fileID: 8969265520170506581}
   steeringTorque: 5
-  horsePower: 30
+  horsePower: 44
   enginePosition: {x: 0, y: 0, z: 0}
 --- !u!1 &690186372003053041
 GameObject:

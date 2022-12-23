@@ -667,6 +667,11 @@ PrefabInstance:
       propertyPath: WPs.Array.data[14].normalizedDistance
       value: 0.94790643
       objectReference: {fileID: 0}
+    - target: {fileID: 1889778250814743571, guid: e70416e3bc35d4004a9981d0ac102ba5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6549838213339869359, guid: e70416e3bc35d4004a9981d0ac102ba5,
         type: 3}
       propertyPath: m_UpdateMethod
@@ -721,6 +726,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_CastShadows
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6589000189253528374, guid: e70416e3bc35d4004a9981d0ac102ba5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6589000189327295504, guid: e70416e3bc35d4004a9981d0ac102ba5,
         type: 3}
@@ -870,6 +880,11 @@ PrefabInstance:
     - target: {fileID: 6589000190618102542, guid: e70416e3bc35d4004a9981d0ac102ba5,
         type: 3}
       propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6589000190939007183, guid: e70416e3bc35d4004a9981d0ac102ba5,
+        type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7121332023826027706, guid: e70416e3bc35d4004a9981d0ac102ba5,

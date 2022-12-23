@@ -161,7 +161,7 @@ namespace BoatAttack.UI
             }
 
             _smoothedSpeed = Mathf.SmoothDamp(_smoothedSpeed, speed, ref _smoothSpeedVel, 1f);
-            speedText.text = _smoothedSpeed.ToString("000");
+            speedText.text = _smoothedSpeed.ToString("00");
         }
 
         public void FinishMatch()

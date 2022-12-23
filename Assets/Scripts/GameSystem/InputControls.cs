@@ -510,11 +510,11 @@ public partial class @InputControls : IInputActionCollection2, IDisposable
     ]
 }");
         // BoatControls
-        m_BoatControls = asset.FindActionMap("BoatControls", throwIfNotFound: true);
-        m_BoatControls_Trottle = m_BoatControls.FindAction("Trottle", throwIfNotFound: true);
-        m_BoatControls_Steering = m_BoatControls.FindAction("Steering", throwIfNotFound: true);
-        m_BoatControls_Reset = m_BoatControls.FindAction("Reset", throwIfNotFound: true);
-        m_BoatControls_Pause = m_BoatControls.FindAction("Pause", throwIfNotFound: true);
+        //m_BoatControls = asset.FindActionMap("BoatControls", throwIfNotFound: true);
+        //m_BoatControls_Trottle = m_BoatControls.FindAction("Trottle", throwIfNotFound: true);
+        //m_BoatControls_Steering = m_BoatControls.FindAction("Steering", throwIfNotFound: true);
+        //m_BoatControls_Reset = m_BoatControls.FindAction("Reset", throwIfNotFound: true);
+        //m_BoatControls_Pause = m_BoatControls.FindAction("Pause", throwIfNotFound: true);
         // DebugControls
         m_DebugControls = asset.FindActionMap("DebugControls", throwIfNotFound: true);
         m_DebugControls_PauseTime = m_DebugControls.FindAction("PauseTime", throwIfNotFound: true);
@@ -576,58 +576,58 @@ public partial class @InputControls : IInputActionCollection2, IDisposable
     }
 
     // BoatControls
-    private readonly InputActionMap m_BoatControls;
-    private IBoatControlsActions m_BoatControlsActionsCallbackInterface;
-    private readonly InputAction m_BoatControls_Trottle;
-    private readonly InputAction m_BoatControls_Steering;
-    private readonly InputAction m_BoatControls_Reset;
-    private readonly InputAction m_BoatControls_Pause;
+    //private readonly InputActionMap m_BoatControls;
+    //private IBoatControlsActions m_BoatControlsActionsCallbackInterface;
+    //private readonly InputAction m_BoatControls_Trottle;
+    //private readonly InputAction m_BoatControls_Steering;
+    //private readonly InputAction m_BoatControls_Reset;
+    //private readonly InputAction m_BoatControls_Pause;
     public struct BoatControlsActions
     {
         private @InputControls m_Wrapper;
         public BoatControlsActions(@InputControls wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Trottle => m_Wrapper.m_BoatControls_Trottle;
-        public InputAction @Steering => m_Wrapper.m_BoatControls_Steering;
-        public InputAction @Reset => m_Wrapper.m_BoatControls_Reset;
-        public InputAction @Pause => m_Wrapper.m_BoatControls_Pause;
-        public InputActionMap Get() { return m_Wrapper.m_BoatControls; }
-        public void Enable() { Get().Enable(); }
-        public void Disable() { Get().Disable(); }
-        public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(BoatControlsActions set) { return set.Get(); }
+        //public InputAction @Trottle => m_Wrapper.m_BoatControls_Trottle;
+        //public InputAction @Steering => m_Wrapper.m_BoatControls_Steering;
+        //public InputAction @Reset => m_Wrapper.m_BoatControls_Reset;
+        //public InputAction @Pause => m_Wrapper.m_BoatControls_Pause;
+        //public InputActionMap Get() { return m_Wrapper.m_BoatControls; }
+        //public void Enable() { Get().Enable(); }
+        //public void Disable() { Get().Disable(); }
+        //public bool enabled => Get().enabled;
+        //public static implicit operator InputActionMap(BoatControlsActions set) { return set.Get(); }
         public void SetCallbacks(IBoatControlsActions instance)
         {
-            if (m_Wrapper.m_BoatControlsActionsCallbackInterface != null)
-            {
-                @Trottle.started -= m_Wrapper.m_BoatControlsActionsCallbackInterface.OnTrottle;
-                @Trottle.performed -= m_Wrapper.m_BoatControlsActionsCallbackInterface.OnTrottle;
-                @Trottle.canceled -= m_Wrapper.m_BoatControlsActionsCallbackInterface.OnTrottle;
-                @Steering.started -= m_Wrapper.m_BoatControlsActionsCallbackInterface.OnSteering;
-                @Steering.performed -= m_Wrapper.m_BoatControlsActionsCallbackInterface.OnSteering;
-                @Steering.canceled -= m_Wrapper.m_BoatControlsActionsCallbackInterface.OnSteering;
-                @Reset.started -= m_Wrapper.m_BoatControlsActionsCallbackInterface.OnReset;
-                @Reset.performed -= m_Wrapper.m_BoatControlsActionsCallbackInterface.OnReset;
-                @Reset.canceled -= m_Wrapper.m_BoatControlsActionsCallbackInterface.OnReset;
-                @Pause.started -= m_Wrapper.m_BoatControlsActionsCallbackInterface.OnPause;
-                @Pause.performed -= m_Wrapper.m_BoatControlsActionsCallbackInterface.OnPause;
-                @Pause.canceled -= m_Wrapper.m_BoatControlsActionsCallbackInterface.OnPause;
-            }
-            m_Wrapper.m_BoatControlsActionsCallbackInterface = instance;
-            if (instance != null)
-            {
-                @Trottle.started += instance.OnTrottle;
-                @Trottle.performed += instance.OnTrottle;
-                @Trottle.canceled += instance.OnTrottle;
-                @Steering.started += instance.OnSteering;
-                @Steering.performed += instance.OnSteering;
-                @Steering.canceled += instance.OnSteering;
-                @Reset.started += instance.OnReset;
-                @Reset.performed += instance.OnReset;
-                @Reset.canceled += instance.OnReset;
-                @Pause.started += instance.OnPause;
-                @Pause.performed += instance.OnPause;
-                @Pause.canceled += instance.OnPause;
-            }
+            //if (m_Wrapper.m_BoatControlsActionsCallbackInterface != null)
+            //{
+                //@Trottle.started -= m_Wrapper.m_BoatControlsActionsCallbackInterface.OnTrottle;
+                //@Trottle.performed -= m_Wrapper.m_BoatControlsActionsCallbackInterface.OnTrottle;
+                //@Trottle.canceled -= m_Wrapper.m_BoatControlsActionsCallbackInterface.OnTrottle;
+            //    @Steering.started -= m_Wrapper.m_BoatControlsActionsCallbackInterface.OnSteering;
+            //    @Steering.performed -= m_Wrapper.m_BoatControlsActionsCallbackInterface.OnSteering;
+            //    @Steering.canceled -= m_Wrapper.m_BoatControlsActionsCallbackInterface.OnSteering;
+            //    @Reset.started -= m_Wrapper.m_BoatControlsActionsCallbackInterface.OnReset;
+            //    @Reset.performed -= m_Wrapper.m_BoatControlsActionsCallbackInterface.OnReset;
+            //    @Reset.canceled -= m_Wrapper.m_BoatControlsActionsCallbackInterface.OnReset;
+            //    @Pause.started -= m_Wrapper.m_BoatControlsActionsCallbackInterface.OnPause;
+            //    @Pause.performed -= m_Wrapper.m_BoatControlsActionsCallbackInterface.OnPause;
+            //    @Pause.canceled -= m_Wrapper.m_BoatControlsActionsCallbackInterface.OnPause;
+            //}
+            //m_Wrapper.m_BoatControlsActionsCallbackInterface = instance;
+            //if (instance != null)
+            //{
+                //@Trottle.started += instance.OnTrottle;
+                //@Trottle.performed += instance.OnTrottle;
+                //@Trottle.canceled += instance.OnTrottle;
+            //    @Steering.started += instance.OnSteering;
+            //    @Steering.performed += instance.OnSteering;
+            //    @Steering.canceled += instance.OnSteering;
+            //    @Reset.started += instance.OnReset;
+            //    @Reset.performed += instance.OnReset;
+            //    @Reset.canceled += instance.OnReset;
+            //    @Pause.started += instance.OnPause;
+            //    @Pause.performed += instance.OnPause;
+            //    @Pause.canceled += instance.OnPause;
+            //}
         }
     }
     public BoatControlsActions @BoatControls => new BoatControlsActions(this);
@@ -672,15 +672,15 @@ public partial class @InputControls : IInputActionCollection2, IDisposable
         }
     }
     public DebugControlsActions @DebugControls => new DebugControlsActions(this);
-    private int m_GamepadSchemeIndex = -1;
-    public InputControlScheme GamepadScheme
-    {
-        get
-        {
-            if (m_GamepadSchemeIndex == -1) m_GamepadSchemeIndex = asset.FindControlSchemeIndex("Gamepad");
-            return asset.controlSchemes[m_GamepadSchemeIndex];
-        }
-    }
+    //private int m_GamepadSchemeIndex = -1;
+    //public InputControlScheme GamepadScheme
+    //{
+    //    get
+    //    {
+    //        if (m_GamepadSchemeIndex == -1) m_GamepadSchemeIndex = asset.FindControlSchemeIndex("Gamepad");
+    //        return asset.controlSchemes[m_GamepadSchemeIndex];
+    //    }
+    //}
     private int m_KeyboardSchemeIndex = -1;
     public InputControlScheme KeyboardScheme
     {

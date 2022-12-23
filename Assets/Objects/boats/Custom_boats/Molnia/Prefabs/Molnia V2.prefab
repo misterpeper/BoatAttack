@@ -297,6 +297,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f76733ea8f352864190f7e032a11a47b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stepAnimLerp: 0.5
+  initialAnimSpeed: 0
+  finalAnimSpeed: 4
 --- !u!1 &2902677682131717438
 GameObject:
   m_ObjectHideFlags: 0
@@ -14904,7 +14907,7 @@ MonoBehaviour:
   engineSound: {fileID: 7154118914587813942}
   waterSound: {fileID: 7154965730307043348}
   steeringTorque: 4
-  horsePower: 22
+  horsePower: 65
   enginePosition: {x: 0, y: 0, z: 0}
 --- !u!1 &5248244312473784058
 GameObject:

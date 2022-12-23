@@ -357,55 +357,12 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &960555434 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2849272551096858750, guid: 56de8e58d1a974ab880e61b104d7ef98,
-    type: 3}
-  m_PrefabInstance: {fileID: 7907029379336488239}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1068255644 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7055921330845455793, guid: 705cc40ed7b2348689ba68fd4bc915b3,
     type: 3}
   m_PrefabInstance: {fileID: 8187458271002221754}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &1156533147
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: WaterDepthMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 5
-  m_Width: 1024
-  m_Height: 1024
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthStencilFormat: 94
-  m_ColorFormat: 0
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
-  m_ShadowSamplingMode: 2
 --- !u!1 &1167111873
 GameObject:
   m_ObjectHideFlags: 0
@@ -578,9 +535,9 @@ MonoBehaviour:
         ignoreInputWhenAppNotInFocus: 1
         useNativeKeyboard: 1
         useNativeMouse: 1
-      maxJoysticksPerPlayer: 1
+      maxJoysticksPerPlayer: 100
       autoAssignJoysticks: 1
-      assignJoysticksToPlayingPlayersOnly: 0
+      assignJoysticksToPlayingPlayersOnly: 1
       distributeJoysticksEvenly: 1
       reassignJoystickToPreviousOwnerOnReconnect: 1
       defaultJoystickAxis2DDeadZoneType: 1
@@ -1549,6 +1506,43 @@ LightingSettings:
   m_PVRFilteringAtrousPositionSigmaIndirect: 2
   m_PVRFilteringAtrousPositionSigmaAO: 1
   m_PVRTiledBaking: 0
+--- !u!84 &1866760638
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterDepthMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 5
+  m_Width: 1024
+  m_Height: 1024
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthStencilFormat: 94
+  m_ColorFormat: 0
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
+  m_ShadowSamplingMode: 2
 --- !u!1 &1900948175
 GameObject:
   m_ObjectHideFlags: 0
@@ -1613,11 +1607,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3426649662696253841, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4376516045305876914, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -1643,30 +1632,15 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5437807835230052925, guid: 56de8e58d1a974ab880e61b104d7ef98,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6677724032156829380, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
       propertyPath: field of view
       value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 6677724032156829380, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: far clip plane
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6677724032156829380, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: m_CullingMask.m_Bits
-      value: 7447
-      objectReference: {fileID: 0}
-    - target: {fileID: 6677724032156829382, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: m_DefaultBlend.m_Time
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6677724032156829382, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: m_DefaultBlend.m_Style
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6677724032156829383, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
@@ -1703,155 +1677,45 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 6677724032546433143, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 6677724032546433143, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 6677724032546433143, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 45
-      objectReference: {fileID: 0}
-    - target: {fileID: 6677724032546433143, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9624553
-      objectReference: {fileID: 0}
-    - target: {fileID: 6677724032546433143, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.27144036
-      objectReference: {fileID: 0}
-    - target: {fileID: 6677724032546433143, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 31.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6677724032547962557, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6677724033110085361, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6677724033233584077, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
       propertyPath: m_Heading.m_Bias
-      value: -139.8684
-      objectReference: {fileID: 0}
-    - target: {fileID: 6677724033928456942, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: m_Lens.FarClipPlane
-      value: 100
+      value: 50.09213
       objectReference: {fileID: 0}
     - target: {fileID: 6677724033928456943, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.490529
+      value: -1.4347335
       objectReference: {fileID: 0}
     - target: {fileID: 6677724033928456943, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.69480234
+      value: -4.668154
       objectReference: {fileID: 0}
     - target: {fileID: 6677724033928456943, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7101534
+      value: 0.9604671
       objectReference: {fileID: 0}
     - target: {fileID: 6677724033928456943, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.16764446
+      value: 0.22673553
       objectReference: {fileID: 0}
     - target: {fileID: 6677724033928456943, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.66550416
+      value: 0.15721495
       objectReference: {fileID: 0}
     - target: {fileID: 6677724033928456943, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.15710421
+      value: -0.037113424
       objectReference: {fileID: 0}
-    - target: {fileID: 6677724034019008997, guid: 56de8e58d1a974ab880e61b104d7ef98,
+    - target: {fileID: 7907029379700984247, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
-      propertyPath: m_Lens.FieldOfView
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 6677724034019008997, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: m_Lens.FarClipPlane
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6677724034071597083, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: m_Lens.FieldOfView
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 6677724034071597083, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: m_Lens.FarClipPlane
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6986721006967331224, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: options.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6986721006967331224, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: options.Array.data[2]
-      value: Molnia
-      objectReference: {fileID: 0}
-    - target: {fileID: 6986721006967331224, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: options.Array.data[3]
-      value: Molnia Shark
-      objectReference: {fileID: 0}
-    - target: {fileID: 6986721006967331224, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: options.Array.data[4]
-      value: Seaplane
-      objectReference: {fileID: 0}
-    - target: {fileID: 6986721006967331224, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: options.Array.data[5]
-      value: Skywing 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6986721006967331224, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: options.Array.data[6]
-      value: Skywing 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6986721006967331224, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: options.Array.data[7]
-      value: Skywing 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6986721006967331224, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: options.Array.data[8]
-      value: Teslaboat 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6986721006967331224, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: options.Array.data[9]
-      value: Teslaboat 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6986721006967331224, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: options.Array.data[10]
-      value: Teslaboat 1
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7907029380085608247, guid: 56de8e58d1a974ab880e61b104d7ef98,
         type: 3}
@@ -1913,70 +1777,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainMenuUI
       objectReference: {fileID: 0}
-    - target: {fileID: 8803882710196166548, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: boatMeshes.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8803882710196166548, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: boatMeshes.Array.data[2]
-      value: 
-      objectReference: {fileID: 960555434}
-    - target: {fileID: 8803882710196166548, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: boatMeshes.Array.data[3]
-      value: 
-      objectReference: {fileID: 7907029379336488240}
-    - target: {fileID: 8803882710196166548, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: boatMeshes.Array.data[4]
-      value: 
-      objectReference: {fileID: 7907029379336488241}
-    - target: {fileID: 8803882710196166548, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: boatMeshes.Array.data[5]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8803882710196166548, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: boatMeshes.Array.data[6]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8803882710196166548, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: boatMeshes.Array.data[7]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8803882710196166548, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: boatMeshes.Array.data[8]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8803882710196166548, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: boatMeshes.Array.data[9]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8803882710196166548, guid: 56de8e58d1a974ab880e61b104d7ef98,
-        type: 3}
-      propertyPath: boatMeshes.Array.data[10]
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56de8e58d1a974ab880e61b104d7ef98, type: 3}
---- !u!1 &7907029379336488240 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3564425809393619603, guid: 56de8e58d1a974ab880e61b104d7ef98,
-    type: 3}
-  m_PrefabInstance: {fileID: 7907029379336488239}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &7907029379336488241 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 426677906212686651, guid: 56de8e58d1a974ab880e61b104d7ef98,
-    type: 3}
-  m_PrefabInstance: {fileID: 7907029379336488239}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8187458271002221754
 PrefabInstance:
   m_ObjectHideFlags: 0

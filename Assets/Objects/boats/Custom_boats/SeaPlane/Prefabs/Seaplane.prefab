@@ -46,7 +46,7 @@ NavMeshObstacle:
   m_MoveThreshold: 0.1
   m_Carve: 0
   m_CarveOnlyStationary: 0
-  m_Center: {x: 0, y: 0.25, z: -0.5}
+  m_Center: {x: 0, y: 0.25, z: -0.4}
   m_TimeToStationary: 0.5
 --- !u!1 &690186371163143568
 GameObject:
@@ -4972,7 +4972,7 @@ MonoBehaviour:
   waterSound: {fileID: 8969265520170506581}
   steeringTorque: 5
   horsePower: 44
-  enginePosition: {x: 0, y: 0, z: 0}
+  enginePosition: {x: 0, y: -0.25, z: 0}
 --- !u!1 &690186372003053041
 GameObject:
   m_ObjectHideFlags: 0
@@ -20080,9 +20080,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5494878145149708269}
   serializedVersion: 2
-  m_Mass: 2600
-  m_Drag: 0.35
-  m_AngularDrag: 0.5
+  m_Mass: 2800
+  m_Drag: 0.25
+  m_AngularDrag: 0.45
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 1
@@ -20135,7 +20135,7 @@ MonoBehaviour:
   density: 600
   volume: 8
   voxelResolution: 0.25
-  centerOfMass: {x: 0, y: -0.05, z: -0.65}
+  centerOfMass: {x: 0, y: -0.05, z: -0.5}
   waterLevelOffset: 0.25
   colliders:
   - {fileID: 6603500440106566663}

@@ -4,7 +4,7 @@
 QualitySettings:
   m_ObjectHideFlags: 0
   serializedVersion: 5
-  m_CurrentQuality: 1
+  m_CurrentQuality: 2
   m_QualitySettings:
   - serializedVersion: 2
     name: Low
@@ -86,6 +86,7 @@ QualitySettings:
     - WebGL
     - PS4
     - XboxOne
+    - Nintendo Switch
   - serializedVersion: 2
     name: High
     pixelLightCount: 4
@@ -101,12 +102,12 @@ QualitySettings:
     skinWeights: 2
     textureQuality: 0
     anisotropicTextures: 2
-    antiAliasing: 8
+    antiAliasing: 2
     softParticles: 1
     softVegetation: 1
     realtimeReflectionProbes: 1
     billboardsFaceCameraPosition: 0
-    vSyncCount: 1
+    vSyncCount: 0
     lodBias: 4
     maximumLODLevel: 0
     streamingMipmapsActive: 1
@@ -126,14 +127,13 @@ QualitySettings:
     - iPhone
     - Android
     - WebGL
-    - Nintendo Switch
   m_PerPlatformDefaultQuality:
     Android: 1
     Nintendo 3DS: 0
-    Nintendo Switch: 1
+    Nintendo Switch: 2
     PS4: 2
     PSP2: 0
-    Server: 0
+    Server: 2
     Standalone: 2
     Tizen: 0
     WebGL: 2

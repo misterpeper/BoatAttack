@@ -35,12 +35,15 @@ MonoBehaviour:
     - GameplayIngredients
     - NaughtyAttributes.Core
     - Cinemachine
+    - Autodesk.Fbx
     - WaterSystem
     - NavMeshComponents
+    - FbxBuildTestAssets
     - Rewired_Windows_Functions
     - NaughtyAttributes.Editor
     - WaterSystem.Editor
     - PPv2URPConverters
+    - Autodesk.Fbx.Editor
     - NavMeshComponentsEditor
     showAdvancedSettings: 0
   addMgrToSceneAutomatically: 0

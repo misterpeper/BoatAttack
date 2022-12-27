@@ -51,7 +51,7 @@ MonoBehaviour:
   variableResolution: 0
   axisBias: 0.5
   minScale: 0.5
-  targetFramerate: 1
+  targetFramerate: 0
   speedFormat: 0
   loadingScreen:
     m_AssetGUID: 179a2376fe443449d9046bc913164c8b
@@ -80,9 +80,9 @@ MonoBehaviour:
   demoRaceData:
     game: 0
     type: 0
-    boatCount: 7
+    boatCount: 4
     level: 
-    laps: 3
+    laps: 1
     reversed: 0
     boats:
     - boatName: Felipe
@@ -107,7 +107,7 @@ MonoBehaviour:
       human: 0
     - boatName: Tim
       boatPrefab:
-        m_AssetGUID: 405c4bc591de844a3a100e1538790229
+        m_AssetGUID: 430ea77ff8d8bc0418329be33a837d26
         m_SubObjectName: 
         m_SubObjectType: 
         m_EditorAssetChanged: 0
@@ -117,7 +117,7 @@ MonoBehaviour:
       human: 0
     - boatName: Florin
       boatPrefab:
-        m_AssetGUID: 70d78230a0527e74dabc4f14906eef98
+        m_AssetGUID: 8b4205c1e394f0f4692756bae4022c6a
         m_SubObjectName: 
         m_SubObjectType: 
         m_EditorAssetChanged: 0

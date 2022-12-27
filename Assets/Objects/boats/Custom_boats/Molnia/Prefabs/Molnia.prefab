@@ -24528,6 +24528,7 @@ GameObject:
   - component: {fileID: 1775340112119388718}
   - component: {fileID: 1860684342036544348}
   - component: {fileID: 1859994567656524632}
+  - component: {fileID: 3553485508303945846}
   m_Layer: 11
   m_Name: Molnia
   m_TagString: boat
@@ -24622,6 +24623,18 @@ MonoBehaviour:
   waterLevelOffset: 0.5
   colliders:
   - {fileID: 1775340112119388718}
+--- !u!114 &3553485508303945846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748111087701638676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c7826866c94f846afbc25359fd4fa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1748159261106977212
 GameObject:
   m_ObjectHideFlags: 0

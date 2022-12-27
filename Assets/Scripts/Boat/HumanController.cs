@@ -22,6 +22,10 @@ namespace BoatAttack
         {
             ThrottleInput();
             SteeringInput();
+        }
+
+        private void Update()
+        {
             GameplayInput();
         }
         private void ThrottleInput()

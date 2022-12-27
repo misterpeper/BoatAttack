@@ -20045,6 +20045,7 @@ GameObject:
   - component: {fileID: 6603500440106566663}
   - component: {fileID: 8399610934533123153}
   - component: {fileID: 4853823003290170909}
+  - component: {fileID: 8742009164925092068}
   m_Layer: 11
   m_Name: Seaplane
   m_TagString: boat
@@ -20139,6 +20140,18 @@ MonoBehaviour:
   waterLevelOffset: 0.25
   colliders:
   - {fileID: 6603500440106566663}
+--- !u!114 &8742009164925092068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5494878145149708269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c7826866c94f846afbc25359fd4fa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8003809442397452541
 GameObject:
   m_ObjectHideFlags: 0

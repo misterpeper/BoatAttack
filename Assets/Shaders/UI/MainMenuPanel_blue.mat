@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MainMenuPanel
+  m_Name: MainMenuPanel_blue
   m_Shader: {fileID: 4800000, guid: 017e3585791a14398a1019d64e6c22d5, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -38,9 +38,9 @@ Material:
     - Vector1_7563C2A4: -0.439
     - Vector1_C4B0954B: 0.25
     - _OffsetX: 0
-    - _OffsetY: 0.05
-    - _Rotation: -1
-    - _Width: 0.25
+    - _OffsetY: -1
+    - _Rotation: 0
+    - _Width: 0.15
     m_Colors:
     - Colorize: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 0, g: 0, b: 0, a: 0}

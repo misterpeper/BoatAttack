@@ -37,7 +37,7 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 1
-    aniso: 0
+    aniso: 2
     mipBias: 0
     wrapU: 0
     wrapV: 0
@@ -117,7 +117,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Nintendo Switch
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: 27
     textureCompression: 1

@@ -25,11 +25,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_25A083BC:
-        m_Texture: {fileID: 2800000, guid: a868d01bf3905413d9db5d02bdf1f531, type: 3}
+        m_Texture: {fileID: 2800000, guid: f2174564275f80a41ac033b6a23358f0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_6EEDD32E:
-        m_Texture: {fileID: 2800000, guid: ded3df33965f643129f2c8ed6caef342, type: 3}
+        m_Texture: {fileID: 2800000, guid: 08475ff1707f9564699b108e2dcb03f3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_E9EC22CC:
@@ -101,7 +101,7 @@ Material:
     - _GlossMapScale: 0.75
     - _Glossiness: 0
     - _GlossyReflections: 1
-    - _Hue: 0.595
+    - _Hue: 0
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
